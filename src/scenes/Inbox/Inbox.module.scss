@@ -1,0 +1,22 @@
+#inbox{
+    display: flex;
+    width: 100%;
+    #chats{
+        background: #FFFFFF;
+        width: 570px;
+        height: 89.5vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        direction: rtl;
+        .chatLink{
+            width: 540px;
+            direction: ltr;
+            display: block;
+            margin: 0 auto;
+        }
+        .activeChat{
+            border-left: 5px solid #349A89;
+            margin-right: 0;
+        }
+    }
+}

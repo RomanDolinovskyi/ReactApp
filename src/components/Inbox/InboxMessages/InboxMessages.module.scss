@@ -1,0 +1,159 @@
+#messagesWrapper {
+  position: relative;
+  flex-grow: 1;
+  #chatInfo {
+    background: #ffffff;
+    display: flex;
+    height: 72px;
+    #participant {
+      line-height: 72px;
+      display: flex;
+      #participantPhoto {
+        margin: auto 16px;
+        height: 45px;
+        width: 45px;
+        text-align: center;
+        line-height: 45px;
+        border-radius: 50%;
+        border: 1px solid black;
+        min-width: 45px;
+        overflow: hidden;
+        #participantAbbr{
+          display: block;
+          height: 45px;
+          width: 45px;
+        }
+      }
+      #participantName {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: #131314;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+    #productInfo {
+      display: flex;
+      height: 38px;
+      margin: auto 50px;
+      align-items: center;
+      background: #f8f8f8;
+      border-radius: 5px;
+      padding: 12px;
+      width: 212px;
+      #productPhoto {
+        height: 43px;
+        width: 43px;
+        margin-right: 9px;
+      }
+      #productShortInfo {
+        position: relative;
+        margin-right: 30px;
+        #productTitle {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          color: #000000;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+        }
+        #productPrice {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 15px;
+          color: #000000;
+        }
+      }
+    }
+  }
+  #chatMessages {
+    overflow-y: scroll;
+    height: calc(100vh - 273px);
+    justify-content: flex-end;
+    padding: 20px 30px 40px 12px;
+    .userMessage {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      margin: 15px 0;
+      .trigger{
+          margin: auto 10px;
+      }
+      .userDecor {
+        position: absolute;
+        top: 5px;
+        right: -4px;
+        height: 10px;
+        width: 10px;
+        border-bottom-right-radius: 100%;
+        background-color: #ffffff;
+        transform: rotate(135deg);
+      }
+      .userMessageText {
+        background: #ffffff;
+        border-radius: 5px;
+        max-width: 270px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15.6px;
+        line-height: 22px;
+        color: #131314;
+        padding: 6px 12px;
+        word-break: break-word;
+      }
+    }
+    .participantMessage {
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      margin: 15px 0;
+      .participantDecor {
+        position: absolute;
+        top: 5px;
+        left: -4px;
+        height: 10px;
+        width: 10px;
+        border-bottom-right-radius: 100%;
+        background-color: #349a89;
+        transform: rotate(-45deg);
+      }
+      .participantMessageText {
+        max-width: 270px;
+        border-radius: 5px;
+        background: #349a89;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15.6px;
+        line-height: 22px;
+        color: #131314;
+        padding: 6px 12px;
+        color: #ffffff;
+        word-break: break-word;
+      }
+    }
+  }
+  input {
+    margin: 0;
+    padding: 0;
+    width: calc(99.5% - 120px);
+    padding: 0 100px 0 20px;
+    margin-right: -50px;
+    height: 55px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22px;
+    &::placeholder {
+      color: #97a3b4;
+    }
+  }
+}

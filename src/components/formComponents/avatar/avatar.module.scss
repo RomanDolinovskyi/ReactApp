@@ -1,0 +1,50 @@
+#avatar_container {
+  display: block;
+  div {
+    display: flex;
+    justify-content: center;
+    #img {
+      display: block;
+      margin: auto;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-color: #f1c40f;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #user_name {
+      display: block;
+      margin: auto;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-color: #f1c40f;
+      text-align: center;
+      line-height: 100px;
+      font-size: 40px;
+    }
+    #upgrade_button {
+      margin-top: -15px;
+      text-transform: capitalize;
+      background: #ffffff;
+      border: 1px solid #349a89;
+      box-sizing: border-box;
+      border-radius: 5px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.4px;
+
+      color: #349a89;
+    }
+  }
+  input {
+    color: transparent;
+    display: none;
+  }
+}

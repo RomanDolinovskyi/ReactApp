@@ -1,0 +1,85 @@
+#chat {
+  width: 540px;
+  height: 107px;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+  margin: 10px 0;
+  #chatInfo {
+    width: 178px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 20px;
+    border-right: 1px solid #e7e9ed;
+    #owner {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 22px;
+      color: #000000;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    #message {
+      display: flex;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 22px;
+      color: rgba(43, 43, 43, 0.499918);
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      span {
+        margin-right: 4px;
+        line-height: 24px;
+      }
+    }
+  }
+  #productInfo {
+    margin: auto 0px;
+    display: flex;
+    width: 236px;
+    #productPhoto {
+      height: 50px;
+      width: 50px;
+    }
+    #productShortInfo {
+      margin-left: 8px;
+      #productTitle {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        color: #000000;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      #productPrice {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 24px;
+        color: #000000;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+  }
+  #time {
+    margin: auto 10px;
+    height: 50px;
+    line-height: 50px;
+    border-left: 1px solid #e7e9ed;
+    padding-left: 10px;
+  }
+}

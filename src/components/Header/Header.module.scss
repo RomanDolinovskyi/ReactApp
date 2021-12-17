@@ -1,0 +1,60 @@
+#header_container {
+  margin: 0;
+  padding: 0 0 20px 0;
+  #header_top {
+    height: 42px;
+    padding: 20px 40px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    a {
+      height: 42px;
+      line-height: 42px;
+    }
+    #header_links {
+      display: flex;
+      div[id="inboxLink"],
+      div[id="savedLink"] {
+        margin-top: 5px;
+      }
+      button[id="sell_button"] {
+        border: none;
+        width: 130px;
+        border-radius: 4px;
+        font-family: Helvetica;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #ffffff;
+        cursor: pointer;
+        background: #349a89;
+        margin: 0 15px 0px 10px;
+        &:hover {
+          box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+        }
+      }
+    }
+    button {
+      border: none;
+      width: 130px;
+      border-radius: 4px;
+      font-family: Helvetica;
+      font-size: 14px;
+      line-height: 30px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #2b2b2b;
+      cursor: pointer;
+      background-color: transparent;
+      &:hover {
+        box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+      }
+    }
+  }
+  
+  #header_bottom{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 0 auto;
+  }
+}

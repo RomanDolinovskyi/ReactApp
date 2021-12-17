@@ -1,0 +1,48 @@
+#recentSearch {
+  height: 400px;
+  max-height: 450px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+#topSearch {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  #recent {
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 40px;
+    color: #cecece;
+  }
+  #clear {
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 40px;
+    margin-right: 20px;
+    color: #349a89;
+    cursor: pointer;
+  }
+}
+.searchRecent {
+  display: flex;
+  margin: 0 -20px;
+  padding: 0 20px 0 40px;
+  cursor: pointer;
+  &:hover {
+    background-color: #b0b0b0;
+  }
+  .text {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 10px;
+  }
+  .dropSearchIcon {
+    line-height: 30px;
+    margin-top: 5px;
+  }
+}

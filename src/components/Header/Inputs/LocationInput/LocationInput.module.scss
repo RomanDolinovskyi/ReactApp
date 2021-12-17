@@ -1,0 +1,27 @@
+#location_container {
+  position: relative;
+  margin: 0 20px;
+  padding: 0;
+  width: 170px;
+  max-width: 170px;
+  #location_icon {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+  }
+  input {
+    height: 50px;
+    width: 100%;
+    max-width: 100%;
+    background: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding-left: 40px;
+    &::placeholder {
+      font-family: Helvetica;
+      font-size: 15px;
+      line-height: 31px;
+      color: rgba(123, 123, 123, 0.776523);
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.dropItem {
+  height: 50px;
+  display: flex;
+  margin: 0 -20px;
+  padding: 4px 0 0 20px;
+  cursor: pointer;
+  &:hover {
+    background-color: #b0b0b0;
+  }
+  .itemIcon {
+    height: 45px;
+    width: 45px;
+    background-color: gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    margin-right: 8px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .itemText {
+    height: 45px;
+    .itemTitle {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      margin: 4px 0;
+      color: #000000;
+    }
+    .itemPrice {
+      font-weight: bold;
+    }
+  }
+}
+
+a{
+  color: black;
+}

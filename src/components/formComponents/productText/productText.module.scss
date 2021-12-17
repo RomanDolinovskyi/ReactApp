@@ -1,0 +1,19 @@
+.inputWrapper{
+    height: 76px;
+    width: 620px;
+    margin: 25px auto;
+    label{
+        display: flex;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: Helvetica;
+        letter-spacing: 0.3px;
+        span{
+            color: red;
+            }
+    }
+    label + span{
+        display: inline;
+        text-align: end;
+    }
+}

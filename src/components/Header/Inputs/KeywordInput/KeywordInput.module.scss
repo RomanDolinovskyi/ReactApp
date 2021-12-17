@@ -1,0 +1,27 @@
+#keywords_container {
+  position: relative;
+  margin: 0 30px 0 0;
+  padding: 0;
+  width: 400px;
+  max-width: 400px;
+  #search_icon{
+      position: absolute;
+      top: 15px;
+      left: 10px;
+  }
+  input {
+    height: 50px;
+    width: 400px;
+    max-width: 400px;
+    background: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding-left: 40px;
+    &::placeholder {
+      font-family: Helvetica;
+      font-size: 15px;
+      line-height: 31px;
+      color: rgba(123, 123, 123, 0.776523);
+    }
+  }
+}

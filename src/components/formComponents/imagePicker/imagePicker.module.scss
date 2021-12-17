@@ -1,0 +1,35 @@
+#ImagePicker {
+  label {
+    display: block;
+    width: 620px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Helvetica;
+    letter-spacing: 0.3px;
+    margin: 0 auto;
+  }
+  #ImagePickerInputs {
+    display: flex;
+    justify-content: left;
+    width: 620px;
+    height: 120px;
+    background: #f9fafb;
+    border: 1px solid #dedee0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 auto ;
+    label {
+      background: #e4e4e4;
+      border-radius: 4px;
+      height: 90px;
+      width: 90px;
+      margin: 15px 15px;
+      text-align: center;
+      line-height: 120px;
+      font-size: 60px;
+    }
+    input{
+        display: none;
+    }
+  }
+}

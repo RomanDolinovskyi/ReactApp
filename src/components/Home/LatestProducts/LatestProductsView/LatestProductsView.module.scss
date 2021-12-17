@@ -1,0 +1,38 @@
+#latestContainer{
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 55vh;
+    #noMatch{
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top: 80px;
+        color: #b0b0b0;
+
+    }
+}
+
+#loadMore{
+    text-align: center;
+    margin: 20px 0;
+    button{
+      background: #349a89;
+      border-radius: 5px;
+      height: 58px;
+      width: 200px;
+      max-width: 200px;
+      font-family: Helvetica;
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: 0.4px;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+      margin: 3px 0;
+    }
+
+}

@@ -1,0 +1,87 @@
+#userInfo {
+  position: relative;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #dedee0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 146px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 5px;
+  #greenLine {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #349a89;
+    border-radius: 4px 4px 0px 0px;
+    z-index: 0;
+  }
+  #userPhoto {
+    position: relative;
+    z-index: 1;
+    margin: 10px auto;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #userFullname {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 15px;
+    line-height: 17px;
+    color: #2b2b2b;
+  }
+  #userLocation {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 15px;
+    line-height: 17px;
+    color: rgba(43, 43, 43, 0.499918);
+  }
+}
+
+#startChat {
+  background: #349a89;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 20px 0 15px 0;
+  color: #ffffff;
+  cursor: pointer;
+}
+#saved {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0 0px 0 15px 0;
+  color: #535353;
+  background: #ffffff;
+  border: 1px solid #349a89;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  span{
+      display: inline-block;
+      margin-left: 10px;
+      margin-top: -5px;
+  }
+}
